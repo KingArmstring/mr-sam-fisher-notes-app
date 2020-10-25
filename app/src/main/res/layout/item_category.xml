@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+
+
+            <CheckBox
+                android:visibility="gone"
+                android:id="@+id/CI_Checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </CheckBox>
+
+    <LinearLayout
+        android:id="@+id/CI_LL"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/CI_Checkbox"
+        android:layout_marginEnd="4dp"
+
+        >
+        <TextView
+            android:text="00"
+            android:id="@+id/CI_Category_Position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+           <TextView
+               android:layout_marginLeft="8dp"
+               android:layout_marginBottom="5dp"
+               android:layout_marginTop="10dp"
+               android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+               android:layout_weight="4"
+               android:layout_toEndOf="@id/CI_Checkbox"
+               android:text="Title"
+               android:id="@+id/CI_Category_Title"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content">
+           </TextView>
+           <TextView
+               android:layout_marginBottom="5dp"
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center"
+               android:layout_weight="1"
+               android:text="Total 0000"
+               android:id="@+id/CI_Total"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content">
+           </TextView>
+
+        <ImageView
+            android:visibility="invisible"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_drag_handle_black_24dp"
+            android:id="@+id/CI_ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageView>
+
+
+</LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+<TextView
+    android:text="Textview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/AM_textview">
+</TextView>
+
+
+    <Button
+        android:id="@+id/MA1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="intentactiviy2"
+        android:text="View Notes1">
+
+    </Button>
+    <Button
+
+        android:text="Quicknotes"
+        android:layout_marginTop="50dp"
+        android:onClick="intentOuicknotes"
+        android:layout_below="@id/MA1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MA2_button">
+
+    </Button>
+
+
+    <Button
+        android:text="View Categories "
+        android:layout_marginTop="50dp"
+        android:onClick="intentButton"
+        android:layout_below="@id/MA2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MA3_button">
+    </Button>
+
+
+
+
+
+    <Button
+        android:visibility="visible"
+        android:text="Main two"
+        android:layout_marginTop="50dp"
+        android:onClick="maintwo"
+        android:layout_below="@id/MA3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MA4_button">
+    </Button>
+
+
+
+
+</RelativeLayout>

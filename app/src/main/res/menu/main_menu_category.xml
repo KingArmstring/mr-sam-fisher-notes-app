@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+
+        />
+
+
+
+
+    <item
+        android:id="@+id/menu_view"
+        android:title="View Notes"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_note_black_24dp"
+
+        >
+    </item>
+
+    <item
+
+        android:title="Add category"
+        android:icon="@drawable/ic_note_add_white_24dp"
+        app:showAsAction="ifRoom"
+        android:id="@+id/menu_add"
+        />
+
+    <item
+        android:id="@+id/menu_edit_pos"
+        android:title="Reorder Categories"
+        app:showAsAction="never"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menu_test"
+        android:title="Menu Test"
+        app:showAsAction="never"
+        >
+    </item>
+
+</menu>

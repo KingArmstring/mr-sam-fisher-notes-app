@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Room</string>
+    <string name="hint_word">Word…</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="input_value">Input value</string>
+    <string name="current_value">Current value:</string>
+    <string name="new_value_dots">New value:</string>
+    <string name="add">Add</string>
+    <string name="subtract">Subtract</string>
+    <string name="new_value">New value</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="input_empty">Input Empty</string>
+
+    <string name="long_text">
+        U.S. sports leagues working to resume play have devised elaborate plans in an effort to hold off the coronavirus: players living in isolated "bubble" communities, regular testing and even connected devices to monitor player health.
+
+But there\'s little hope of keeping the coronavirus out entirely. It\'s a given that players will test positive, according to people from both the medical and the sports industries.
+
+"Having a case is almost inevitable, so it'll be about minimizing the chain reaction," said a person who is familiar with the plans developed by the NBA and MLB, who was not authorized to discuss them publicly. "The whole strategy is to minimize the chance of being shut down again, but they’re fully prepared to have some players become infected.”
+
+The surging coronavirus pandemic has cast a shadow over once-optimistic plans for professional sports in the United States to resume as they have in some other parts of the world.
+
+And while no league has yet backed off plans to restart, few signs are pointing in the right direction. New cases continue to crop up daily across nearly all professional and amateur sports, and some athletes have said they intend to sit out the season. Outbreaks in parts of the U.S. set to host the games are leading to renewed lockdowns.
+
+The NBA’s plan, which may be the most extensive and viable, has received praise from several experts, including the nation’s top infectious disease specialist, Dr. Anthony Fauci. But it still may not work if cases spike within the league or to extreme levels in the host cities. That raises the question of just how feasible it is for sports to return, especially for leagues without the more than 100-page safety protocol being adopted by the NBA.
+
+NBA Commissioner Adam Silver has said repeatedly that even with a thorough plan, there's no guarantee that play will resume.
+
+“[It’s] never ‘full steam no matter what,'” he reiterated in an interview with Time on Tuesday. “One thing we’re learning about this virus is that much is unpredictable.”
+
+
+    </string>
+
+    <string-array name="Title">
+        <item>Ashi 101 </item>
+        <item>Mount elbow raise</item>
+        <item>Inside triangle </item>
+        <item>Elbow chop</item>
+        <item>Single leg counter</item>
+        <item>Ashi 101 </item>
+        <item>Mount elbow raise</item>
+        <item>Inside triangle </item>
+        <item>Elbow chop</item>
+        <item>Single leg counter</item>
+
+    </string-array>
+    <string-array name="Category_Title">
+        <item> C1 </item>
+        <item> C2 </item>
+        <item> C3 </item>
+        <item> C4 </item>
+        <item> C5 </item>
+        <item> C6 </item>
+
+    </string-array>
+
+    <string-array name="Fragment_color">
+        <item>No Color</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Lime Green</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Brown</item>
+        <item>Grey</item>
+    </string-array>
+
+
+    <string-array name="Description">
+        <item>make sure your hips are as close as possible and you are up right not droping towards your back, your outside foot is on the mat reap when just your knee then your foot goes  over the hip towards the thigh back heeling and when you begin your roll your inside foot creates a hook and your also back healing with that leg. also standing up right on the roll after you finish the roll and get to outside ashi  bring your outside leg forward creating pressure on the knee and making the grip tighter also do not finish on your shoulder  and look away when you are finishing </item>
+        <item>From mount raise their elbow by getting your arm under their head next with your under hand get their wrist to their chest and place your chest over their wrist. Trap their far side leg opposite of the elbow  you are lifting. do not just only  walk your fingers  but anytime you feel resistance move your head away from the arm and strengthen you elbow to make thiers rise </item>
+        <item>Inside triangle to kneebar</item>
+        <item>From side he his trying to hook your leg to get a single or replace . Use your far side arm to chop down at his armpit while you move your legs towards his head also get your knee behind the head to keep him from going to his back then get a kimura girp</item>
+        <item>He puts my leg on his shoulder </item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

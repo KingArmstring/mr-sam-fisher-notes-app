@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+
+
+
+
+
+    <EditText
+        android:textColor="@android:color/black"
+        android:layout_marginTop="30dp"
+        android:inputType="number"
+        android:hint="@string/input_value"
+        android:maxLength="10"
+        android:textAlignment="center"
+        android:id="@+id/ARL_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+
+
+    <TextView
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/ARL_tv_currentValue"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/current_value"
+        android:layout_below="@id/ARL_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/ARL_tv_newValue"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/new_value_dots"
+        android:layout_below="@id/ARL_tv_currentValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <RadioGroup
+        android:layout_below="@+id/ARL_tv_newValue"
+        android:id="@+id/ARL_rg_main"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/ARL_rd_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="RadioButton_addrep"
+            android:checked="true"
+            android:text="@string/add">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/ARL_rd_sub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="RadioButton_addrep"
+            android:text="@string/subtract">
+        </RadioButton>
+
+        <RadioButton
+
+            android:id="@+id/ARL_rd_new"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="RadioButton_addrep"
+            android:text="@string/new_value"></RadioButton>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_below="@id/ARL_rg_main"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:text="@string/save"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/ARL_btn_save">
+        </TextView>
+
+        <TextView
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:onClick="onClick"
+            android:textColor="@color/red"
+            android:background="@android:color/transparent"
+            android:text="@string/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/ARL_btn_cancel">
+        </TextView>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

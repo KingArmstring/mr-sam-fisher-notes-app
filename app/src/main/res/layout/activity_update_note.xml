@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    
+    <include android:id="@+id/AEN_my_toolbar"
+        layout="@layout/toolbar_layout"/>
+
+<ScrollView
+    android:layout_below="@id/AEN_my_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:visibility="gone"
+        android:layout_below="@id/AEN_my_toolbar"
+        android:id="@+id/AEN_tv_test"
+        android:text="@string/long_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+</ScrollView>
+
+
+
+
+    <LinearLayout
+        android:visibility="visible"
+        android:id="@+id/AEN_ll_addnote"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_below="@id/AEN_my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/AEN_text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:inputType="text">
+        </EditText>
+
+
+            <EditText
+                android:focusable="false"
+                android:onClick="Time_Rep_Intent"
+                android:id="@+id/AEN_text_reps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Reps"
+                android:textAlignment="viewStart"
+                android:inputType="number">
+            </EditText>
+
+
+        <EditText
+            android:focusable="false"
+            android:onClick="Time_Rep_Intent"
+            android:textAlignment="viewStart"
+            android:id="@+id/AEN_text_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Time"
+            android:inputType="number">
+        </EditText>
+
+        <EditText
+            android:background="@null"
+            android:gravity="start|top"
+            android:textAlignment="textStart"
+            android:layout_marginTop="8dp"
+            android:id="@+id/AEN_text_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Info"
+
+            >
+        </EditText>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

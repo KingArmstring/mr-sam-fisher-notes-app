@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <include android:id="@+id/AAN_my_toolbar"
+        layout="@layout/toolbar_layout"/>
+
+
+
+    <LinearLayout
+        android:visibility="visible"
+        android:layout_below="@id/AAN_my_toolbar"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+
+            android:id="@+id/AAN_text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:inputType="text">
+        </EditText>
+
+
+
+
+    <EditText
+        android:focusable="false"
+        android:onClick="Time_Intent"
+        android:textAlignment="viewStart"
+        android:id="@+id/AAN_text_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time"
+        android:inputType="number">
+    </EditText>
+
+
+
+
+        <EditText
+            android:id="@+id/AAN_text_reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Reps"
+            android:textAlignment="viewStart"
+            android:inputType="number">
+        </EditText>
+
+        <EditText
+            android:background="@null"
+            android:gravity="start|top"
+            android:textAlignment="textStart"
+            android:layout_marginTop="8dp"
+            android:id="@+id/AAN_text_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Info"
+            >
+        </EditText>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
